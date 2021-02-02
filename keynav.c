@@ -497,7 +497,9 @@ void defaults() {
     "ctrl+semicolon start",
     "Escape end",
     "ctrl+bracketleft end", /* for vi people who use ^[ */
-    "q record ~/.keynav_macros",
+    /* "q record ~/.keynav_macros", */ /* path mustn't be set here if you want
+                                          to set a custom value later */
+    "q record",
     "shift+at playback",
     "a history-back",
     "h cut-left",
